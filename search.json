@@ -1,16 +1,58 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "About this site"
+    "text": "Publications and other research outputs will be listed here as they become publicly available."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Rowan David Santos",
+    "title": "Rowan Santos",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I am an undergraduate student at the University of Edinburgh, studying Computer Science and Mathematics. My interests include graph theory, approximation algorithms, and complexity theory.\nAbout me"
+  },
+  {
+    "objectID": "index.html#computer-science-and-mathematics",
+    "href": "index.html#computer-science-and-mathematics",
+    "title": "Rowan Santos",
+    "section": "",
+    "text": "I am an undergraduate student at the University of Edinburgh, studying Computer Science and Mathematics. My interests include graph theory, approximation algorithms, and complexity theory.\nAbout me"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an undergraduate student studying Computer Science and Mathematics at the University of Edinburgh. My interests lie primarily in theoretical computer science, with a particular focus on graph theory, approximation algorithms, complexity theory, and related areas of algorithms and discrete mathematics.\nIn summer 2026, I was a Summer Undergraduate Research Fellow at INSAIT, the Institute for Computer Science, Artificial Intelligence and Technology, in Sofia, Bulgaria. There, I conducted research in algorithms and theory."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nUniversity of Edinburgh\nBSc Computer Science and Mathematics\n2024–2028"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\n\nINSAIT\nSummer Undergraduate Research Fellow\nJune-August 2026 - Sofia, Bulgaria\nI undertook theoretical computer science research as part of INSAIT’s Summer Undergraduate Research Fellowship programme. My work concerned theoretical problems in algorithms and network routing.\nFurther details will be added when the associated work becomes publicly available."
+  },
+  {
+    "objectID": "about.html#academic-interests",
+    "href": "about.html#academic-interests",
+    "title": "About",
+    "section": "Academic interests",
+    "text": "Academic interests\n\nGraph theory\nApproximation algorithms\nDesign and analysis of algorithms\nCombinatorial optimisation"
+  },
+  {
+    "objectID": "about.html#links",
+    "href": "about.html#links",
+    "title": "About",
+    "section": "Links",
+    "text": "Links\n\nGitHub\nLinkedIn"
   }
 ]

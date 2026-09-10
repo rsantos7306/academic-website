@@ -1,0 +1,25 @@
+<!-- ---
+title: "Curriculum Vitae"
+description: "Curriculum vitae of Rowan Santos."
+---
+
+An up-to-date copy of my curriculum vitae is available below.
+
+[Download my CV](files/Rowan_Santos_CV.pdf){.btn .btn-primary .cv-button}
+
+The CV opens as a PDF and can be downloaded or viewed in a browser.
+
+::: {.cv-note}
+
+### Selected details
+
+**Education**  
+BSc Computer Science and Mathematics, University of Edinburgh, 2024–present
+
+**Research experience**  
+Summer Undergraduate Research Fellow, INSAIT, 2026
+
+**Academic interests**  
+Theoretical computer science, graph theory, approximation algorithms, and complexity theory
+
+::: -->

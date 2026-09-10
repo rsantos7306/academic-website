@@ -1,7 +1,23 @@
 ---
-title: "Rowan David Santos"
+title: "Rowan Santos"
+page-layout: full
 ---
 
-This is a Quarto website.
+::: {.hero}
+::: {.hero-text}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Computer Science and Mathematics
+
+I am an undergraduate student at the University of Edinburgh, studying Computer Science and Mathematics. My interests include graph theory, approximation algorithms, and complexity theory.
+
+[About me](about.qmd){.btn .btn-primary .me-2}
+<!-- [View my CV](cv.qmd){.btn .btn-outline-secondary} -->
+
+:::
+
+::: {.hero-image}
+
+![](photos/profile_photo.jpg)
+
+:::
+:::

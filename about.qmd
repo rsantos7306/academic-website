@@ -2,4 +2,44 @@
 title: "About"
 ---
 
-About this site
+
+I am an undergraduate student studying Computer Science and Mathematics at the University of Edinburgh. My interests lie primarily in theoretical computer science, with a particular focus on graph theory, approximation algorithms, complexity theory, and related areas of algorithms and discrete mathematics.
+
+In summer 2026, I was a Summer Undergraduate Research Fellow at INSAIT, the Institute for Computer Science, Artificial Intelligence and Technology, in Sofia, Bulgaria. There, I conducted research in algorithms and theory.
+
+## Education
+
+### University of Edinburgh
+
+**BSc Computer Science and Mathematics**  
+2024–2028
+
+## Experience
+
+### INSAIT
+
+**Summer Undergraduate Research Fellow**  
+June-August 2026 - Sofia, Bulgaria
+
+I undertook theoretical computer science research as part of INSAIT's Summer Undergraduate Research Fellowship programme. My work concerned theoretical problems in algorithms and network routing.
+
+Further details will be added when the associated work becomes publicly available.
+
+## Academic interests
+
+- Graph theory
+- Approximation algorithms
+- Design and analysis of algorithms
+- Combinatorial optimisation
+
+## Links
+
+- [GitHub](https://github.com/rsantos7306)
+- [LinkedIn](https://www.linkedin.com/in/rowan-santos/)
+<!-- - [Download my CV](files/Rowan_Santos_CV.pdf) -->
+
+<!--
+
+To be added:
+- [Google Scholar](link here)
+-->

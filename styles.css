@@ -1,1 +1,286 @@
-/* css styles */
+/*-- scss:defaults --*/
+
+/* General design */
+:root {
+  --page-background: #f7f5ef;
+  --surface: #fffdf8;
+  --surface-accent: #e5efeb;
+  --sea-green: #315f58;
+  --sea-green-dark: #244942;
+  --sea-green-light: #668f86;
+  --text-main: #24302d;
+  --text-muted: #5d6966;
+  --border-colour: #d5dfdb;
+}
+
+body {
+  background-color: var(--page-background);
+  color: var(--text-main);
+  font-family:
+    "Avenir Next",
+    Avenir,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+.navbar-title {
+  color: var(--sea-green-dark);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  margin-top: 1.5rem;
+}
+
+p {
+  color: var(--text-main);
+}
+
+a {
+  color: var(--sea-green);
+  text-decoration-color: rgba(49, 95, 88, 0.4);
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: var(--sea-green-dark);
+  text-decoration-color: var(--sea-green-dark);
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--sea-green) !important;
+  border: 0;
+  box-shadow: 0 2px 8px rgba(28, 56, 51, 0.12);
+}
+
+.navbar-title,
+.navbar-nav .nav-link,
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #dcebe6 !important;
+}
+
+.navbar-title {
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+}
+
+/* Main content */
+main.content {
+  max-width: 960px;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: transparent;
+}
+
+.quarto-title h1 {
+  color: var(--sea-green-dark);
+}
+
+/* Home-page hero */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(220px, 0.7fr);
+  align-items: center;
+  gap: 4rem;
+  max-width: 1080px;
+  margin: 2.5rem auto 4rem;
+  padding: 2.5rem 2rem;
+}
+
+.hero-text h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2.6rem, 6vw, 4.6rem);
+  line-height: 1.05;
+}
+
+.hero-text h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--sea-green-light);
+  font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+  font-weight: 500;
+}
+
+.hero-text p {
+  max-width: 700px;
+  margin-bottom: 1.7rem;
+  font-size: 1.08rem;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 180px;
+  height: 230px;
+  object-fit: cover;
+  object-position: center;
+  border: 5px solid var(--surface);
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(36, 73, 66, 0.16);
+}
+
+
+
+/* Home-page sections */
+.home-section {
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+  padding: 0 2rem;
+}
+
+.home-section h2 {
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.interest-card {
+  height: 100%;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border-colour);
+  border-radius: 12px;
+  box-shadow: 0 5px 16px rgba(36, 73, 66, 0.06);
+}
+
+.interest-card h3 {
+  margin-top: 0;
+  font-size: 1.12rem;
+}
+
+.interest-card p {
+  margin-bottom: 0;
+  color: var(--text-muted);
+}
+
+.home-highlight {
+  padding: 2rem;
+  background: var(--surface-accent);
+  border-radius: 14px;
+}
+
+.home-highlight h2 {
+  margin-top: 0;
+  text-align: left;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--sea-green);
+  border-color: var(--sea-green);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--sea-green-dark);
+  border-color: var(--sea-green-dark);
+}
+
+.btn-outline-secondary {
+  color: var(--sea-green);
+  border-color: var(--sea-green);
+}
+
+.btn-outline-secondary:hover {
+  color: #ffffff;
+  background-color: var(--sea-green);
+  border-color: var(--sea-green);
+}
+
+.cv-button {
+  margin: 0.75rem 0 1.5rem;
+}
+
+/* CV panel */
+.cv-note {
+  margin-top: 2rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--surface-accent);
+  border-left: 4px solid var(--sea-green);
+  border-radius: 0 10px 10px 0;
+}
+
+.cv-note h3 {
+  margin-top: 0;
+}
+
+/* Footer */
+.nav-footer {
+  margin-top: 4rem;
+  background-color: #edf1ee;
+  border-top: 1px solid var(--border-colour);
+}
+
+.nav-footer a {
+  color: var(--sea-green);
+}
+
+/* Mobile layout */
+@media (max-width: 800px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding: 2rem 1.25rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    order: 2;
+  }
+
+  .hero-image {
+    order: 1;
+  }
+
+ .hero-image img {
+  width: 145px;
+  height: 185px;
+  }
+
+
+  .hero-text p {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-section {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .home-highlight h2 {
+    text-align: center;
+  }
+}

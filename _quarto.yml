@@ -1,21 +1,48 @@
 project:
   type: website
+  output-dir: _site
+  # resources:
+  #   - files/*.pdf
 
 website:
-  title: "Rowan David Santos"
+  title: "Rowan Santos"
+  site-url: "https://rowandavidsantos.com"
+  description: "Personal academic website of Rowan Santos, an undergraduate student in computer science and mathematics at the University of Edinburgh."
+
   navbar:
+    background: "#315f58"
+    foreground: "#ffffff"
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      # - href: cv.qmd
+      #   text: CV
+
+    right:
+      - icon: github
+        href: "https://github.com/rsantos7306"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/rowan-santos/"
+        aria-label: LinkedIn
+
+      # After creating GS:
+      # - icon: mortarboard
+      #   href: "YOUR-GOOGLE-SCHOLAR-URL"
+      #   aria-label: Google Scholar
+
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
+    link-external-newwindow: true
+    smooth-scroll: true
 
-
-
+execute:
+  freeze: auto
